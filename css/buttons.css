@@ -1,0 +1,23 @@
+:root {
+    --button-primary-bg: var(--primary-color);
+    --button-hover-bg: #2980b9;
+    --button-text-color: #fff;
+    --button-padding: 12px 24px;
+    --button-border-radius: 5px;
+}
+
+.button-primary {
+    background-color: var(--button-primary-bg);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border-radius: 100px;
+    padding: 16px 24px;
+    font-family: var(--font-family-secondary);
+}
+
+.button-primary:hover {
+    background-color: var(--button-hover-bg);
+}
