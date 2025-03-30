@@ -16,6 +16,7 @@
     border-radius: 100px;
     padding: 16px 24px;
     font-family: var(--font-family-secondary);
+    font-weight: 400;
 }
 
 .button-primary:hover {
